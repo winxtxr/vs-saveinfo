@@ -3,6 +3,6 @@
     ชื่อสินค้า <input type="text" name="name"/> </br>
     ราคา <input type="text" name="price"/> </br>
     จำนวนของ <input type="text" name="stock"/> </br>
-    คำอธิบาย <input type="textarea" name="deacription"/> </br>
+    คำอธิบาย <textarea name="description"/> </textarea> </br>
      <input type="submit" value="บันทึกข้อมูล"/>
 </form>
