@@ -1,0 +1,8 @@
+.tb{
+    border: solid 1px rgba(0, 0, 0, 0.333);
+}
+
+.tb tr:hover{
+    background-color: #65e9fd;
+}
+
