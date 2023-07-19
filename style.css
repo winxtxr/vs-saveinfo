@@ -1,8 +1,94 @@
 .tb{
     border: solid 1px rgba(0, 0, 0, 0.333);
+    width: 100%;
 }
 
 .tb tr:hover{
-    background-color: #65e9fd;
+    background-color: #50de9c;
+    border: 1px solid;
+    color: #000000;
 }
 
+.tb th,td{
+    padding: 15px;
+    text-align: left;
+    border: 1px solid;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px dashed rgb(77, 60, 14);
+    font-size: 13px;
+    line-height: 1.8;
+    color: #000000;
+    font-weight: 400;
+    font-family: Poppins;
+    display: block;
+    margin: 8px;
+    background-color: rgb(218, 218, 218);
+    opacity: 0.3;
+  }
+  
+
+.bt {
+    background-color: blue;
+    border: none;
+    color: azure;
+    padding: 20px 50px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+.bt:hover{
+    background-color: aquamarine;
+}
+
+.ct{
+    max-width: 800px;
+    margin: auto;
+}
+
+
+
+.bg{
+    background-attachment : scroll;
+background-clip :border-box;
+background-color: rgb(248, 248, 248);
+background-image :none;
+background-origin :padding-box;
+background-position-x :0%;
+background-position-y: 0%;
+background-repeat-x :repeat;
+background-repeat-y :repeat;
+background-size :auto;
+color :rgb(34, 34, 34);
+display :block;
+font-family :Poppins;
+font-size :13px;
+font-weight :400;
+line-height :23.4px;
+margin-bottom :8px;
+margin-left :8px;
+margin-right :8px;
+margin-top :8px;
+width :754.286px;
+
+}
+
+.im{
+    background: url(bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    position: relative;
+  }
+
+.t {
+    color: rgb(0, 0, 0);
+  }

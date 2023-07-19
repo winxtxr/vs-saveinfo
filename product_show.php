@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="style.css"/>
+<div class="ct">
 <?php
 include "connect.php";
 
@@ -8,7 +9,7 @@ $result = mysqli_query($conn, $sql);
 if (mysqli_num_rows($result) > 0) {
   // output data of each row
   ?>
-  <table class="table">
+  <table class="tb">
     <th> name </th>
     <th> price </th>
     <th> stock </th>
@@ -40,3 +41,4 @@ if (mysqli_num_rows($result) > 0) {
 }
 mysqli_close($conn);
 ?>
+</div>

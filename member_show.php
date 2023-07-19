@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="style.css"/>
+<div class="ct">
 <?php
 
 $servername = "localhost";
@@ -21,10 +22,10 @@ if (mysqli_num_rows($result) > 0) {
 
 ?>
 <table class="tb">
-  <th>ชื่อ-นามสกุล</th>
-  <th>อีเมล</th>
-  <th>เบอร์โทรศัพท์</th>
-  <th>ที่อยู่</th>
+  <th>Name</th>
+  <th>Email</th>
+  <th>Tel.</th>
+  <th><Address></Address></th>
   <th>Edit</th>
   <th>Delete</th>
 
@@ -55,3 +56,5 @@ if (mysqli_num_rows($result) > 0) {
 
 mysqli_close($conn);
   ?>
+
+</div>
