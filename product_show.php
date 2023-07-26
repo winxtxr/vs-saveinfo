@@ -14,6 +14,7 @@ if (mysqli_num_rows($result) > 0) {
     <th> price </th>
     <th> stock </th>
     <th> description </th>
+    <th> photo </th>
     <th> edit </th>
     <th> delete </th>
 
@@ -27,6 +28,7 @@ if (mysqli_num_rows($result) > 0) {
         <td><?php echo"$row[price]"; ?> </td>
         <td><?php echo"$row[stock]"; ?> </td>
         <td><?php echo"$row[description]"; ?> </td>
+        <td><img src="./images/<?php echo $row[photo] ?>" width="200px" />  </td>
         <td> <?php echo"<a href ='product_edit.php?id=$row[id]'> edit </a>";?> </td>
         <td> <?php echo"<a href ='product_del.php?id=$row[id]'> delete </a>";?> </td>
     </tr>

@@ -13,6 +13,7 @@ Email <input type="email" name="email"value="<?php echo $row[email]; ?>"class="i
 Tel. <input type="text" name="phone"value="<?php echo $row[phone]; ?>"class="input"/> 
 Address <textarea name="address"class="input"> <?php echo $row[address]; ?> </textarea> 
 Photo <input type="file" name="photo"class="input"/> 
+<img src="./images/<?php echo $row[photo] ?>" width="200px" />
 <input type="submit" value="Update"class="bt"/>
 </form>
 </div>
